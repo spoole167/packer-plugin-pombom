@@ -48,7 +48,7 @@ signs:
   - artifacts: checksum
 
 checksum:
-   name_template: "{{ .ProjectName }}_{{ .Version }}_SHA256SUMS"
+   name_template: "{{ .ProjectName }}_{{ .Tag }}_SHA256SUMS"
 release:
   footer: >-
 
